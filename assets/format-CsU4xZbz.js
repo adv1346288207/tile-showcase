@@ -1,0 +1,1 @@
+var e={per_m2:`㎡`,per_piece:`片`},t={in_stock:`有货`,out_of_stock:`缺货`,preorder:`可预订`};function n(t,n=`per_m2`){if(t==null)return``;let r=Number(t);return`¥${r%1==0?r.toFixed(0):r.toFixed(2)}/${e[n]||``}`}export{n,t};

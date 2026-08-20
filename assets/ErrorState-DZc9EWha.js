@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-DnJeTsKg.js";var t=e();function n({message:e=`加载失败，请检查网络后重试`,onRetry:n}){return(0,t.jsxs)(`div`,{className:`error-state`,children:[(0,t.jsx)(`p`,{children:e}),n&&(0,t.jsx)(`button`,{className:`btn btn-primary`,type:`button`,onClick:n,children:`重试`})]})}export{n as t};
